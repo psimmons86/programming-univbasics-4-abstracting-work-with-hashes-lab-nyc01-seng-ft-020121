@@ -8,7 +8,7 @@ def read_from_hash(hash, key)
   {
     :key => value
   }
-  my_hash_creator[:key]
+  :key[value]
 end
 
 def update_counting_hash(hash, key)
