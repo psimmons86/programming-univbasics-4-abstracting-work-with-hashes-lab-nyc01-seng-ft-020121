@@ -6,9 +6,9 @@ end
 
 def read_from_hash(hash, key)
  read_from_hash = {
-    key => value
+    :key => "value"
   }
-  read_from_hash[value]
+  read_from_hash["value"]
 end
 
 def update_counting_hash(hash, key)
