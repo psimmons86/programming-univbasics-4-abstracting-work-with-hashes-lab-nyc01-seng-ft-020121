@@ -6,7 +6,7 @@ end
 
 def read_from_hash(hash, key)
  read_from_hash = {
-    :name => "Tzvi"
+    :name => "Steve"
   }
   read_from_hash[:name]
 end
