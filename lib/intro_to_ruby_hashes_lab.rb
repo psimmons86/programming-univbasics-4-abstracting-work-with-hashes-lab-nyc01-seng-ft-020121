@@ -5,6 +5,9 @@ def my_hash_creator(key,value)
 end
 
 def read_from_hash(hash, key)
+  {
+    :name => "Steve"
+  }
   my_hash_creator[:name]
 end
 
